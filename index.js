@@ -1,12 +1,9 @@
 import { Header, Nav, Main, Footer } from "./components";
 import * as store from "./store";
 import Navigo from "navigo";
-import { after, capitalize } from "lodash";
+import { capitalize } from "lodash";
 import axios from "axios";
-import dotenv from "dotenv";
 
-// Make sure that dotenv.config(); is placed after all of you import statements
-dotenv.config();
 
 const router = new Navigo("/");
 
